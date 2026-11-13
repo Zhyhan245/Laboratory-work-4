@@ -14,4 +14,4 @@ jobs:
       - name: Install sqlfluff and lint DataSchema.sql
         run: |
           pip install sqlfluff
-          sqlfluff lint $GITHUB_WORKSPACE/DataSchema.sql --dialect sqlite
+          sqlfluff lint $GITHUB_WORKSPACE/DataSchemaModified.sql --dialect sqlite
